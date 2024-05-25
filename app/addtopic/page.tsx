@@ -40,7 +40,7 @@ const page = () => {
   }
   return (
     <>
-      <div className="mx-7">
+      <div className="mx-7 dark:text-white">
         <h1 className="text-center font-bold text-2xl">Add Topic</h1>
         <form onSubmit={handleSubmit} className="flex flex-col mt-4 gap-4">
           <input
@@ -56,7 +56,7 @@ const page = () => {
             onChange={(e)=>setDescription(e.target.value)}
             value={description}
             placeholder="Description"
-            className="p-2 rounded col-span-12 row-span-8 text-black"
+            className="p-2 rounded col-span-12 row-span-8 text-black border-2"
           ></textarea>
 
           <button type="submit" className="bg-green-700 font-bold px-5 py-3 rounded">
