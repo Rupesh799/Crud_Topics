@@ -17,7 +17,7 @@ const config: Config = {
       },
       colors:{
         "dark": "#232A3C",
-        "medium":"#001861"
+        "medium":"#222831"
       }
     },
   },
